@@ -9,7 +9,7 @@ url:                   https://willuxdesign.github.io
 # When your site is in a subdirectory, set to `/<name of directory>`,
 # with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
-# baseurl:               '/hydejack-starter-kit'
+baseurl:               ''
 
 
 # General settings
@@ -41,8 +41,8 @@ logo:                  /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                <William> <Torres>
-  email:               <willuxdesign@gmail.com>
+  name:                William Torres
+  email:               willuxdesign@gmail.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -51,9 +51,9 @@ menu:
   - title:             Portfolio
     url:               /portfolio/
   - title:             Curriculum
-    url:               /docs/
+    url:               /cv/
   - title:             Sobre mí
-    url:               /sobre-mi/
+    url:               /about/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -242,7 +242,7 @@ hydejack:
 
   # Set to `true` when building with the `--lsi` option.
   # The net effect is to use the Jekyll-provided `site.related_posts` variable.
-  use_lsi:             true
+  use_lsi:             false
 
   # When using Google Analytics, set to `true` to display a cookie notice banner.
   # When enabled, no user-related data will be stored until the user gives consent.
@@ -251,7 +251,7 @@ hydejack:
   # Set to `true` if you would like to add a "Powered by Hydejack" link in the footer.
   # Note that this setting has no effect when using the free version.
   advertise:           false
-
+  no_theme_byline: true
   # Buyers of the PRO version can opt to hide all dates from the theme.
   # Frequent consumers of online content will know that nothing devalues a post like
   # seeing an old date. 
