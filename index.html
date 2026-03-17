@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>William Torres | Portafolio</title>
+  <meta name="description" content="Portafolio y curriculum de William Torres.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@600;700;800&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Principal">
+      <a class="brand" href="index.html">William Torres</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links" id="nav-menu">
+        <a href="index.html#portafolio"><i class="fa-solid fa-briefcase"></i><span>Portafolio</span></a>
+        <a href="curriculum.html"><i class="fa-regular fa-file-lines"></i><span>Curriculum</span></a>
+        <a href="contacto.html"><i class="fa-regular fa-envelope"></i><span>Contacto</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-backdrop"></div>
+      <div class="container hero-grid">
+        <div class="profile-card">
+          <img src="assets/img/william-profile.png" alt="Foto de perfil de William Torres" class="profile-image">
+        </div>
+        <div class="hero-copy">
+          <p class="eyebrow">MI PORTAFOLIO</p>
+          <h1 class="hero-title"><span>Bienvenidx</span></h1>
+          <p class="hero-text">
+            Soy diseñador gráfico enfocado en experiencias digitales claras, funcionales y centradas en ayudar a las personas.
+            Te invito a explorar este espacio que reúne el proceso de mis ultimos proyectos UX y mi trayectoria profesional.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#portafolio">
+              <i class="fa-solid fa-briefcase"></i>
+              Ver portafolio
+            </a>
+            <a class="button button-secondary" href="curriculum.html">
+              <i class="fa-regular fa-file-lines"></i>
+              Curriculum
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="portafolio">
+      <div class="section-heading">
+        <p class="eyebrow">Trabajo destacado</p>
+        <h2>Proyectos seleccionados</h2>
+      </div>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-visual project-visual-a">
+            <span>Proyecto 01</span>
+          </div>
+          <div class="project-body">
+            <h3>Cinépolis</h3>
+            <p>Mejora del flujo de usuario e interfaz de la app de Cinépolis.</p>
+            <a class="project-link" href="proyectos/diseno-ux-cinepolis.html">
+              Ver proyecto completo
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual project-visual-b">
+            <span>Proyecto 02</span>
+          </div>
+          <div class="project-body">
+            <h3>Cita Fácil ISSSTE</h3>
+            <p>Iniciativa pública mexicana que propone una app para realizar citas en los centros médicos del Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado (ISSSTE).</p>
+            <a class="project-link" href="proyectos/diseno-ux-cita-facil-issste.html">
+              Ver proyecto completo
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-visual project-visual-c">
+            <span>Proyecto 03</span>
+          </div>
+          <div class="project-body">
+            <h3>Procuraduría Agraria</h3>
+            <p>Sistema digital de trámites para facilitar el acceso a información y la gestión de trámites de la Procuraduría Agraria.</p>
+            <a class="project-link" href="proyectos/en-construccion.html">
+              Ver proyecto completo
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>William Torres &copy; 2026</small>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

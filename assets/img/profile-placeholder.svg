@@ -1,0 +1,12 @@
+<svg width="640" height="640" viewBox="0 0 640 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="640" rx="320" fill="url(#paint0_linear_1_2)"/>
+  <circle cx="320" cy="238" r="118" fill="#FFFFFF" fill-opacity="0.75"/>
+  <path d="M155 528C155 439.635 226.635 368 315 368H325C413.365 368 485 439.635 485 528V560H155V528Z" fill="#FFFFFF" fill-opacity="0.75"/>
+  <text x="320" y="590" text-anchor="middle" font-family="Nunito Sans, Arial, sans-serif" font-size="56" font-weight="800" fill="#FFF8F0">WT</text>
+  <defs>
+    <linearGradient id="paint0_linear_1_2" x1="91" y1="78" x2="560" y2="576" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#D96C3F"/>
+      <stop offset="1" stop-color="#1F5561"/>
+    </linearGradient>
+  </defs>
+</svg>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>William Torres | Contacto</title>
+  <meta name="description" content="Formulario de contacto de William Torres.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@600;700;800&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Principal">
+      <a class="brand" href="index.html">William Torres</a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-links" id="nav-menu">
+        <a href="index.html#portafolio"><i class="fa-solid fa-briefcase"></i><span>Portafolio</span></a>
+        <a href="curriculum.html"><i class="fa-regular fa-file-lines"></i><span>Curriculum</span></a>
+        <a href="contacto.html" aria-current="page"><i class="fa-regular fa-envelope"></i><span>Contacto</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="page-shell">
+    <section class="section container">
+      <div class="contact-layout">
+        <div class="contact-copy">
+          <p class="eyebrow">Hablemos</p>
+          <h1>Contacto</h1>
+          <p>
+            Si quieres colaborar, conocer más sobre mi trabajo o conversar sobre un proyecto,
+            puedes escribirme directamente desde este formulario.
+          </p>
+          <div class="contact-meta">
+            <p><i class="fa-solid fa-envelope"></i> wevtor@gmail.com</p>
+            <p><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/529831901026" target="_blank" rel="noreferrer">9831901026</a></p>
+            <p><i class="fa-solid fa-location-dot"></i> Chetumal, Quintana Roo</p>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <label>
+            Nombre <span>*</span>
+            <input type="text" name="nombre" required>
+          </label>
+
+          <label>
+            Correo <span>*</span>
+            <input type="email" name="correo" required>
+          </label>
+
+          <label>
+            Empresa
+            <input type="text" name="empresa">
+          </label>
+
+          <label>
+            Número de teléfono <span>*</span>
+            <input type="tel" name="telefono" required>
+          </label>
+
+          <label>
+            Mensaje <span>*</span>
+            <textarea name="mensaje" rows="6" required></textarea>
+          </label>
+
+          <div class="form-actions">
+            <button class="button button-primary" type="submit">
+              <i class="fa-solid fa-paper-plane"></i>
+              Enviar correo
+            </button>
+            <p class="form-note">
+              Este sitio es estático: al enviar, se abrirá tu aplicación de correo con el mensaje listo para revisión.
+            </p>
+          </div>
+
+          <p class="form-status" id="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>William Torres &copy; 2026</small>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
